@@ -3,7 +3,7 @@ use leptos::*;
 
 #[component]
 pub fn About(cx: Scope) -> Element {
-    log!("rendering Settings page");
+    log!("rendering About page");
     view! {
         cx,
         <h1>"About page"</h1>
