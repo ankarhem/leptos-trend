@@ -1,0 +1,19 @@
+{
+  "name": "leptos-trend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "dev": "tailwindcss -i styles/tailwind.css -o assets/styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.28.1",
+    "@types/node": "^18.11.15",
+    "concurrently": "^7.6.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
