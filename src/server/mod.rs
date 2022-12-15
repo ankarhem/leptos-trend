@@ -1,6 +1,6 @@
 mod generated;
 
-use crate::app::*;
+// use crate::app::*;
 use actix_files::Files;
 use actix_web::*;
 use futures::StreamExt;
@@ -8,6 +8,7 @@ use generated::{HTML_END, HTML_MIDDLE, HTML_START};
 use leptos::*;
 use leptos_meta::*;
 use leptos_router::*;
+use leptos_trend::app::*;
 
 #[derive(Copy, Clone, Debug)]
 struct ActixIntegration {

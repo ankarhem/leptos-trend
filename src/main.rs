@@ -1,4 +1,4 @@
-mod app;
+// mod app;
 #[cfg(feature = "ssr")]
 mod server;
 

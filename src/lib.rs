@@ -1,5 +1,9 @@
-mod app;
 use cfg_if::cfg_if;
+
+pub mod app;
+pub mod pages;
+// pub mod components;
+// pub mod routes;
 
 cfg_if! {
 if #[cfg(feature = "hydrate")] {
@@ -17,7 +21,7 @@ if #[cfg(feature = "hydrate")] {
       log!("hydrate mode - hydrating");
 
       leptos::hydrate(body().unwrap(), move |cx| {
-        view! { cx, <App/> }
+        view! { cx, <App /> }
       });
     }
 }
