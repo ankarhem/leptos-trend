@@ -1,6 +1,5 @@
-use cfg_if::*;
 use leptos::*;
-use leptos_router::{use_location, use_params_map, use_route};
+use leptos_router::*;
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Debug, PartialEq, Eq, Deserialize, Serialize)]
