@@ -1,4 +1,5 @@
 use leptos::*;
+use leptos_router::*;
 
 #[component]
 pub fn Header(cx: Scope) -> Element {
@@ -15,22 +16,22 @@ pub fn Header(cx: Scope) -> Element {
         <div class="flex items-center h-12 px-8 shadow-md bg-blue-50 lg:pl-2">
           <nav class="hidden px-4 lg:block">
             <ul class="flex gap-4">
-              <li class="hover:text-blue-400">
-                <a class="" href="/news">"New arrivals"</a>
+              <li class="hover:underline underline-offset-2">
+                <A href="/news">"New arrivals"</A>
               </li>
-              <li class="hover:text-blue-400">
-                <a class="" href="/campaigns">"Campaigns"</a>
+              <li class="hover:underline underline-offset-2">
+                <A href="/campaigns">"Campaigns"</A>
               </li>
-              <li class="hover:text-blue-400">
-                <a class="" href="/bikes">"Bikes"</a>
+              <li class="hover:underline underline-offset-2">
+                <A href="/bikes">"Bikes"</A>
               </li>
-              <li class="hover:text-blue-400">
-                <a class="" href="/accessories">"Accessories"</a>
+              <li class="hover:underline underline-offset-2">
+                <A class="".to_string() href="/accessories">"Accessories"</A>
               </li>
-              <li class="hover:text-blue-400">
-                <a class="" href="/furniture">"Furniture"</a>
-              </li><li class="hover:text-blue-400">
-                <a class="" href="/brands">"Brands"</a>
+              <li class="hover:underline underline-offset-2">
+                <A href="/furniture">"Furniture"</A>
+              </li><li class="hover:underline underline-offset-2">
+                <A href="/brands">"Brands"</A>
               </li>
             </ul>
           </nav>
